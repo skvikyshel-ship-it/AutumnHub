@@ -3,7 +3,7 @@ local creatorType = game.CreatorType
 local player = game.Players.LocalPlayer
 
 -- Murder Mystery 2
-if groupId == 142823291 or placeId == 142823291 or placeId == 335132309 then
+if groupId == 142823291 or placeId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/skvikyshel-ship-it/MM2/refs/heads/main/MM2%20SCRIPT"))()
 
 -- Jujutsu Shenanigans
