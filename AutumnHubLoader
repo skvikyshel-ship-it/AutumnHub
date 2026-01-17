@@ -8,7 +8,7 @@ if groupId == 142823291 or placeId == 142823291 then
 
 -- Jujutsu Shenanigans
 elseif groupId == 16357742 or placeId == 9391468976 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/skvikyshel-ship-it/Test/refs/heads/main/Autumn%20Hub"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skvikyshel-ship-it/Test/refs/heads/main/JJS"))()
   
 else
    player:Kick("Not supported game, check supported games on https://discord.gg/zR5pm4TWqC")
