@@ -1,0 +1,13 @@
+local player = game.Players.LocalPlayer
+
+-- Murder Mystery 2
+if groupId == 142823291 or placeId == 142823291 or placeId == 335132309 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skvikyshel-ship-it/MM2/refs/heads/main/MM2%20SCRIPT"))()
+
+-- Jujutsu Shenanigans
+elseif groupId == 16357742 or placeId == 9391468976 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skvikyshel-ship-it/Test/refs/heads/main/Autumn%20Hub"))()
+  
+else
+   player:Kick("Not supported game, check supported games on https://discord.gg/zR5pm4TWqC")
+end
